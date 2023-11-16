@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header title should match snapshot for NetworkSelect 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "column",
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "RegularFont",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 24,
+        },
+        [
+          {
+            "fontFamily": "SemiBoldFont",
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "textAlign": "center",
+          },
+          {
+            "color": "rgba(0, 0, 0, 1)",
+          },
+        ],
+      ]
+    }
+  >
+    Foo
+  </Text>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text />
+    <View
+      style={
+        {
+          "height": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SemiBoldFont",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              {
+                "color": "rgba(82, 82, 82, 1)",
+              },
+            ],
+          ]
+        }
+        testID="header_active_network"
+      >
+        Playground
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Header title should match snapshot for Status 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": false,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "flexDirection": "column",
+      "opacity": 1,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "RegularFont",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 24,
+        },
+        [
+          {
+            "fontFamily": "SemiBoldFont",
+            "fontWeight": "600",
+            "lineHeight": 20,
+            "textAlign": "center",
+          },
+          {
+            "color": "rgba(0, 0, 0, 1)",
+          },
+        ],
+      ]
+    }
+  >
+    Foo
+  </Text>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "rgba(16, 185, 129, 1)",
+          "borderBottomLeftRadius": 9999,
+          "borderBottomRightRadius": 9999,
+          "borderTopLeftRadius": 9999,
+          "borderTopRightRadius": 9999,
+          "height": 8,
+          "marginRight": 6,
+          "width": 8,
+        }
+      }
+      testID="header_status_indicator"
+    />
+    <View
+      style={
+        {
+          "display": "flex",
+          "flexDirection": "row",
+          "height": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SemiBoldFont",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(82, 82, 82, 1)",
+              },
+            ],
+          ]
+        }
+        testID="header_active_network"
+      >
+        Playground
+      </Text>
+    </View>
+  </View>
+</View>
+`;

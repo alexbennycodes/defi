@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Info text link should match snapshot 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "flex-end",
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+      "opacity": 1,
+    }
+  }
+>
+  <Text />
+  <Text
+    style={
+      [
+        {
+          "fontFamily": "RegularFont",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "lineHeight": 24,
+        },
+        [
+          [
+            {
+              "fontFamily": "MediumFont",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "lineHeight": 16,
+              "marginLeft": 4,
+              "paddingLeft": 4,
+              "paddingRight": 4,
+            },
+            undefined,
+          ],
+          {
+            "color": "rgba(255, 0, 175, 1)",
+          },
+        ],
+      ]
+    }
+  >
+    foo
+  </Text>
+</View>
+`;

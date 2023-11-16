@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scrollable button should match snapshot 1`] = `
+<View
+  style={
+    {
+      "height": 32,
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+    showsHorizontalScrollIndicator={false}
+    style={
+      [
+        {
+          "display": "flex",
+          "flexDirection": "row",
+        },
+        {
+          "backgroundColor": "rgba(255, 255, 255, 1)",
+        },
+      ]
+    }
+  >
+    <View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255, 255, 255, 1)",
+            "borderBottomColor": "rgba(212, 212, 212, 1)",
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderBottomWidth": 1,
+            "borderLeftColor": "rgba(212, 212, 212, 1)",
+            "borderLeftWidth": 1,
+            "borderRightColor": "rgba(212, 212, 212, 1)",
+            "borderRightWidth": 1,
+            "borderTopColor": "rgba(212, 212, 212, 1)",
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "marginRight": 8,
+            "opacity": 1,
+            "paddingBottom": 8,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "paddingTop": 8,
+          }
+        }
+      >
+        <Text />
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                [
+                  {
+                    "fontFamily": "MediumFont",
+                    "fontSize": 14,
+                    "fontWeight": "500",
+                    "lineHeight": 16,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                  },
+                  undefined,
+                ],
+                {
+                  "color": "rgba(255, 0, 175, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          ADD COLLATERAL
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255, 255, 255, 1)",
+            "borderBottomColor": "rgba(212, 212, 212, 1)",
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderBottomWidth": 1,
+            "borderLeftColor": "rgba(212, 212, 212, 1)",
+            "borderLeftWidth": 1,
+            "borderRightColor": "rgba(212, 212, 212, 1)",
+            "borderRightWidth": 1,
+            "borderTopColor": "rgba(212, 212, 212, 1)",
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "marginRight": 8,
+            "opacity": 1,
+            "paddingBottom": 8,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "paddingTop": 8,
+          }
+        }
+      >
+        <Text />
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                [
+                  {
+                    "fontFamily": "MediumFont",
+                    "fontSize": 14,
+                    "fontWeight": "500",
+                    "lineHeight": 16,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                  },
+                  undefined,
+                ],
+                {
+                  "color": "rgba(255, 0, 175, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          TAKE COLLATERAL
+        </Text>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": true,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignItems": "center",
+            "backgroundColor": "rgba(245, 245, 245, 1)",
+            "borderBottomColor": "rgba(245, 245, 245, 1)",
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderBottomWidth": 1,
+            "borderLeftColor": "rgba(245, 245, 245, 1)",
+            "borderLeftWidth": 1,
+            "borderRightColor": "rgba(245, 245, 245, 1)",
+            "borderRightWidth": 1,
+            "borderTopColor": "rgba(245, 245, 245, 1)",
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+            "borderTopWidth": 1,
+            "flexDirection": "row",
+            "marginRight": 8,
+            "opacity": 1,
+            "paddingBottom": 8,
+            "paddingLeft": 8,
+            "paddingRight": 8,
+            "paddingTop": 8,
+          }
+        }
+      >
+        <Text />
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                [
+                  {
+                    "fontFamily": "MediumFont",
+                    "fontSize": 14,
+                    "fontWeight": "500",
+                    "lineHeight": 16,
+                    "paddingLeft": 4,
+                    "paddingRight": 4,
+                  },
+                  undefined,
+                ],
+                {
+                  "color": "rgba(212, 212, 212, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          EDIT SCHEME
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

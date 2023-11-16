@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Total Value Locked should match snapshot 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 24,
+      "marginTop": 8,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+    }
+  }
+>
+  <ViewManagerAdapter_ExpoLinearGradient
+    colors={
+      [
+        4294074307,
+        4287326700,
+      ]
+    }
+    endPoint={
+      [
+        1,
+        1,
+      ]
+    }
+    locations={
+      [
+        0,
+        1,
+      ]
+    }
+    startPoint={
+      [
+        0,
+        0,
+      ]
+    }
+    style={
+      [
+        {
+          "borderBottomLeftRadius": 10,
+          "borderBottomRightRadius": 10,
+          "borderTopLeftRadius": 10,
+          "borderTopRightRadius": 10,
+        },
+        {
+          "padding": 0.5,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+          },
+          {
+            "backgroundColor": "rgba(242, 242, 242, 1)",
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          {
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "overflow": "hidden",
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          resizeMode="cover"
+          source={1}
+          style={
+            [
+              {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              {
+                "height": undefined,
+                "width": "100%",
+              },
+              {
+                "height": 224,
+              },
+            ]
+          }
+        />
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 14,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 14,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "width": "66.666667%",
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraSemiBold",
+                      "fontSize": 16,
+                      "fontWeight": "600",
+                      "lineHeight": 24,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="DEX_TVL"
+            >
+              $123
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+            >
+              Total value locked
+            </Text>
+          </View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "backgroundColor": "rgba(0, 0, 0, 1)",
+                "borderBottomLeftRadius": 20,
+                "borderBottomRightRadius": 20,
+                "borderTopLeftRadius": 20,
+                "borderTopRightRadius": 20,
+                "opacity": 1,
+                "paddingBottom": 8,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraSemiBold",
+                      "fontSize": 12,
+                      "fontWeight": "600",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(242, 242, 242, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="composite_swap"
+            >
+              Swap
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </ViewManagerAdapter_ExpoLinearGradient>
+</View>
+`;

@@ -1,0 +1,765 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`recovery words faq should match snapshot 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "paddingBottom": 64,
+      "paddingLeft": 20,
+      "paddingRight": 20,
+      "paddingTop": 32,
+    }
+  }
+  style={
+    [
+      {
+        "flexBasis": "0%",
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+      {
+        "backgroundColor": "rgba(242, 242, 242, 1)",
+      },
+    ]
+  }
+  testID="recovery_words_faq"
+>
+  <View>
+    <Text
+      style={
+        [
+          {
+            "fontFamily": "RegularFont",
+            "fontSize": 16,
+            "fontWeight": "400",
+            "lineHeight": 24,
+          },
+          [
+            {
+              "fontFamily": "SoraRegular",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+            },
+            {
+              "color": "rgba(18, 18, 18, 1)",
+            },
+          ],
+        ]
+      }
+    >
+      Your unique 24 recovery words is a human-readable representation of your wallet private key, generated from a list of 2048 words in the BIP-39 standard. It prevents any attempts on brute-hacking your wallet’s security.
+    </Text>
+    <RCTScrollView
+      style={
+        [
+          undefined,
+          {
+            "backgroundColor": "rgba(242, 242, 242, 1)",
+          },
+        ]
+      }
+      testID="recovery_words_faq_accordion"
+    >
+      <View>
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 16,
+                  "marginTop": 32,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                },
+                {
+                  "color": "rgba(115, 115, 115, 1)",
+                },
+              ],
+            ]
+          }
+          text="FREQUENTLY ASKED QUESTIONS"
+        >
+          FREQUENTLY ASKED QUESTIONS
+        </Text>
+        <View
+          style={
+            [
+              {
+                "borderBottomLeftRadius": 8,
+                "borderBottomRightRadius": 8,
+                "borderTopLeftRadius": 8,
+                "borderTopRightRadius": 8,
+                "marginTop": 8,
+                "overflow": "hidden",
+              },
+              {
+                "backgroundColor": "rgba(255, 255, 255, 1)",
+              },
+            ]
+          }
+        >
+          <View
+            style={{}}
+          >
+            <View
+              accessibilityState={
+                {
+                  "expanded": true,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <View
+                style={
+                  [
+                    [
+                      {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                        "marginLeft": 20,
+                        "marginRight": 20,
+                        "paddingBottom": 16,
+                        "paddingTop": 16,
+                      },
+                      false,
+                      {
+                        "paddingBottom": 4,
+                      },
+                    ],
+                    {
+                      "borderBottomColor": "rgba(204, 204, 204, 1)",
+                      "borderLeftColor": "rgba(204, 204, 204, 1)",
+                      "borderRightColor": "rgba(204, 204, 204, 1)",
+                      "borderTopColor": "rgba(204, 204, 204, 1)",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "fontFamily": "RegularFont",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                      },
+                      [
+                        {
+                          "flexBasis": "0%",
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "fontFamily": "SoraSemiBold",
+                          "fontSize": 14,
+                          "fontWeight": "600",
+                          "lineHeight": 20,
+                        },
+                        {
+                          "color": "rgba(18, 18, 18, 1)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  What happens if I lose my recovery words?
+                </Text>
+                <Text />
+              </View>
+            </View>
+            <View
+              collapsable={false}
+              pointerEvents="auto"
+              style={{}}
+            >
+              <View
+                collapsable={false}
+                onLayout={[Function]}
+                style={{}}
+              >
+                <View
+                  style={
+                    [
+                      [
+                        {
+                          "marginLeft": 20,
+                          "marginRight": 20,
+                          "paddingBottom": 16,
+                          "paddingTop": 16,
+                        },
+                        {
+                          "borderBottomWidth": 1,
+                        },
+                      ],
+                      {
+                        "borderBottomColor": "rgba(204, 204, 204, 1)",
+                        "borderLeftColor": "rgba(204, 204, 204, 1)",
+                        "borderRightColor": "rgba(204, 204, 204, 1)",
+                        "borderTopColor": "rgba(204, 204, 204, 1)",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "fontFamily": "RegularFont",
+                            "fontSize": 16,
+                            "fontWeight": "400",
+                            "lineHeight": 24,
+                          },
+                          [
+                            {
+                              "flexBasis": "0%",
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "fontFamily": "SoraRegular",
+                              "fontSize": 14,
+                              "fontWeight": "400",
+                              "lineHeight": 20,
+                            },
+                            {
+                              "color": "rgba(18, 18, 18, 1)",
+                            },
+                          ],
+                        ]
+                      }
+                    >
+                      Once you lose your recovery words, you will not be able to restore your wallet and any funds within it. We encourage you to be responsible with your recovery words.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={{}}
+          >
+            <View
+              accessibilityState={
+                {
+                  "expanded": false,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <View
+                style={
+                  [
+                    [
+                      {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                        "marginLeft": 20,
+                        "marginRight": 20,
+                        "paddingBottom": 16,
+                        "paddingTop": 16,
+                      },
+                      {
+                        "borderBottomWidth": 1,
+                      },
+                      false,
+                    ],
+                    {
+                      "borderBottomColor": "rgba(204, 204, 204, 1)",
+                      "borderLeftColor": "rgba(204, 204, 204, 1)",
+                      "borderRightColor": "rgba(204, 204, 204, 1)",
+                      "borderTopColor": "rgba(204, 204, 204, 1)",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "fontFamily": "RegularFont",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                      },
+                      [
+                        {
+                          "flexBasis": "0%",
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "fontFamily": "SoraRegular",
+                          "fontSize": 14,
+                          "fontWeight": "400",
+                          "lineHeight": 20,
+                        },
+                        {
+                          "color": "rgba(89, 89, 89, 1)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Can I use the 24-word from xxx that I created from xxx?
+                </Text>
+                <Text />
+              </View>
+            </View>
+            <View
+              collapsable={false}
+              pointerEvents="none"
+              style={
+                {
+                  "height": 0,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                onLayout={[Function]}
+                style={{}}
+              >
+                <View
+                  style={
+                    [
+                      [
+                        {
+                          "marginLeft": 20,
+                          "marginRight": 20,
+                          "paddingBottom": 16,
+                          "paddingTop": 16,
+                        },
+                        false,
+                      ],
+                      {
+                        "borderBottomColor": "rgba(204, 204, 204, 1)",
+                        "borderLeftColor": "rgba(204, 204, 204, 1)",
+                        "borderRightColor": "rgba(204, 204, 204, 1)",
+                        "borderTopColor": "rgba(204, 204, 204, 1)",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "fontFamily": "RegularFont",
+                            "fontSize": 16,
+                            "fontWeight": "400",
+                            "lineHeight": 24,
+                          },
+                          [
+                            {
+                              "flexBasis": "0%",
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "fontFamily": "SoraRegular",
+                              "fontSize": 14,
+                              "fontWeight": "400",
+                              "lineHeight": 20,
+                            },
+                            {
+                              "color": "rgba(18, 18, 18, 1)",
+                            },
+                          ],
+                        ]
+                      }
+                    >
+                      You can only reuse the 24-words if it's created from the Jellyfish ecosystem.
+
+The compatible client is DeFiChain Wallet (Android/iOS).
+
+However, it is highly discouraged that you reuse it. Your 24-words are only as secure as the source computer / device / app that generates it. If your source is comprised, so are your 24-words. Essentially, one set of 24-words per device / computer / app is encouraged.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={{}}
+          >
+            <View
+              accessibilityState={
+                {
+                  "expanded": false,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <View
+                style={
+                  [
+                    [
+                      {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                        "marginLeft": 20,
+                        "marginRight": 20,
+                        "paddingBottom": 16,
+                        "paddingTop": 16,
+                      },
+                      {
+                        "borderBottomWidth": 1,
+                      },
+                      false,
+                    ],
+                    {
+                      "borderBottomColor": "rgba(204, 204, 204, 1)",
+                      "borderLeftColor": "rgba(204, 204, 204, 1)",
+                      "borderRightColor": "rgba(204, 204, 204, 1)",
+                      "borderTopColor": "rgba(204, 204, 204, 1)",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "fontFamily": "RegularFont",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                      },
+                      [
+                        {
+                          "flexBasis": "0%",
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "fontFamily": "SoraRegular",
+                          "fontSize": 14,
+                          "fontWeight": "400",
+                          "lineHeight": 20,
+                        },
+                        {
+                          "color": "rgba(89, 89, 89, 1)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Can someone help me if I lose my recovery words?
+                </Text>
+                <Text />
+              </View>
+            </View>
+            <View
+              collapsable={false}
+              pointerEvents="none"
+              style={
+                {
+                  "height": 0,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                onLayout={[Function]}
+                style={{}}
+              >
+                <View
+                  style={
+                    [
+                      [
+                        {
+                          "marginLeft": 20,
+                          "marginRight": 20,
+                          "paddingBottom": 16,
+                          "paddingTop": 16,
+                        },
+                        false,
+                      ],
+                      {
+                        "borderBottomColor": "rgba(204, 204, 204, 1)",
+                        "borderLeftColor": "rgba(204, 204, 204, 1)",
+                        "borderRightColor": "rgba(204, 204, 204, 1)",
+                        "borderTopColor": "rgba(204, 204, 204, 1)",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "fontFamily": "RegularFont",
+                            "fontSize": 16,
+                            "fontWeight": "400",
+                            "lineHeight": 24,
+                          },
+                          [
+                            {
+                              "flexBasis": "0%",
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "fontFamily": "SoraRegular",
+                              "fontSize": 14,
+                              "fontWeight": "400",
+                              "lineHeight": 20,
+                            },
+                            {
+                              "color": "rgba(18, 18, 18, 1)",
+                            },
+                          ],
+                        ]
+                      }
+                    >
+                      No. You have sole access to your recovery words. No one is responsible and liable for it except you.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+          <View
+            style={{}}
+          >
+            <View
+              accessibilityState={
+                {
+                  "expanded": false,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+            >
+              <View
+                style={
+                  [
+                    [
+                      {
+                        "alignItems": "flex-start",
+                        "flexDirection": "row",
+                        "justifyContent": "space-between",
+                        "marginLeft": 20,
+                        "marginRight": 20,
+                        "paddingBottom": 16,
+                        "paddingTop": 16,
+                      },
+                      false,
+                      false,
+                    ],
+                    {
+                      "borderBottomColor": "rgba(204, 204, 204, 1)",
+                      "borderLeftColor": "rgba(204, 204, 204, 1)",
+                      "borderRightColor": "rgba(204, 204, 204, 1)",
+                      "borderTopColor": "rgba(204, 204, 204, 1)",
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "fontFamily": "RegularFont",
+                        "fontSize": 16,
+                        "fontWeight": "400",
+                        "lineHeight": 24,
+                      },
+                      [
+                        {
+                          "flexBasis": "0%",
+                          "flexGrow": 1,
+                          "flexShrink": 1,
+                          "fontFamily": "SoraRegular",
+                          "fontSize": 14,
+                          "fontWeight": "400",
+                          "lineHeight": 20,
+                        },
+                        {
+                          "color": "rgba(89, 89, 89, 1)",
+                        },
+                      ],
+                    ]
+                  }
+                >
+                  Why is it recommended to keep my recovery words offline and on paper?
+                </Text>
+                <Text />
+              </View>
+            </View>
+            <View
+              collapsable={false}
+              pointerEvents="none"
+              style={
+                {
+                  "height": 0,
+                  "overflow": "hidden",
+                }
+              }
+            >
+              <View
+                collapsable={false}
+                onLayout={[Function]}
+                style={{}}
+              >
+                <View
+                  style={
+                    [
+                      [
+                        {
+                          "marginLeft": 20,
+                          "marginRight": 20,
+                          "paddingBottom": 16,
+                          "paddingTop": 16,
+                        },
+                        false,
+                      ],
+                      {
+                        "borderBottomColor": "rgba(204, 204, 204, 1)",
+                        "borderLeftColor": "rgba(204, 204, 204, 1)",
+                        "borderRightColor": "rgba(204, 204, 204, 1)",
+                        "borderTopColor": "rgba(204, 204, 204, 1)",
+                      },
+                    ]
+                  }
+                >
+                  <View
+                    style={
+                      {
+                        "flexDirection": "row",
+                        "justifyContent": "flex-start",
+                      }
+                    }
+                  >
+                    <Text
+                      style={
+                        [
+                          {
+                            "fontFamily": "RegularFont",
+                            "fontSize": 16,
+                            "fontWeight": "400",
+                            "lineHeight": 24,
+                          },
+                          [
+                            {
+                              "flexBasis": "0%",
+                              "flexGrow": 1,
+                              "flexShrink": 1,
+                              "fontFamily": "SoraRegular",
+                              "fontSize": 14,
+                              "fontWeight": "400",
+                              "lineHeight": 20,
+                            },
+                            {
+                              "color": "rgba(18, 18, 18, 1)",
+                            },
+                          ],
+                        ]
+                      }
+                    >
+                      Storing it in digital networks could make it accessible to hackers. It is best to write it in paper and to keep it secure and private.
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RCTScrollView>
+`;

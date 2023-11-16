@@ -1,0 +1,2046 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton Loader should match snapshot of address skeleton loader 1`] = `
+<View
+  style={
+    [
+      {
+        "borderBottomWidth": 1,
+        "paddingBottom": 12,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 12,
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomColor": "rgba(245, 245, 245, 1)",
+        "borderLeftColor": "rgba(245, 245, 245, 1)",
+        "borderRightColor": "rgba(245, 245, 245, 1)",
+        "borderTopColor": "rgba(245, 245, 245, 1)",
+      },
+    ]
+  }
+  testID="address_skeleton_loader"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="35"
+    bbWidth="100%"
+    focusable={false}
+    height={35}
+    interval={0.25}
+    meetOrSlice={1}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {},
+        {
+          "flex": 0,
+          "height": 35,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={35}
+    vbWidth={400}
+    width="100%"
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGRect
+        clipPath="address-animated-diff"
+        fill={
+          {
+            "brushRef": "address-diff",
+            "type": 1,
+          }
+        }
+        height="100%"
+        propList={
+          [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="address-animated-diff"
+        >
+          <RNSVGCircle
+            cx="35"
+            cy="16"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            r="12"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="20"
+            rx="3"
+            ry="3"
+            width="280"
+            x="60"
+            y="5"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            [
+              0,
+              -1250325,
+              0.5,
+              -1,
+              1,
+              -1250325,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="address-diff"
+          x1="-100%"
+          x2="0%"
+          y1="0"
+          y2="0"
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`Skeleton Loader should match snapshot of browse auction skeleton loader 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "justifyContent": "center",
+        "marginBottom": 8,
+        "paddingBottom": 20,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 20,
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+  testID="browse_auctions_skeleton_loader"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="84"
+    bbWidth="100%"
+    focusable={false}
+    height={84}
+    interval={0.25}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {},
+        {
+          "flex": 0,
+          "height": 84,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={84}
+    vbWidth={289}
+    width="100%"
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGRect
+        clipPath="browseAuctions-animated-diff"
+        fill={
+          {
+            "brushRef": "browseAuctions-diff",
+            "type": 1,
+          }
+        }
+        height="100%"
+        propList={
+          [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="browseAuctions-animated-diff"
+        >
+          <RNSVGCircle
+            cx="16"
+            cy="19"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            r="16"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="24"
+            rx="5"
+            ry="5"
+            width="140"
+            x="160"
+            y="4"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="12"
+            rx="5"
+            ry="5"
+            width="100"
+            x="200"
+            y="30"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="12"
+            rx="3"
+            ry="3"
+            width="50"
+            x="0"
+            y="55"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="32"
+            rx="20"
+            ry="20"
+            width="110"
+            x="190"
+            y="51"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="12"
+            rx="3"
+            ry="3"
+            width="140"
+            x="0"
+            y="69"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            [
+              0,
+              -1250325,
+              0.5,
+              -1,
+              1,
+              -1250325,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="browseAuctions-diff"
+          x1="-100%"
+          x2="0%"
+          y1="0"
+          y2="0"
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`Skeleton Loader should match snapshot of dex price skeleton loader 1`] = `
+<View
+  style={
+    [
+      {
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+  testID="dex_skeleton_price_loader"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="30"
+    bbWidth="100%"
+    focusable={false}
+    height={30}
+    interval={0.25}
+    meetOrSlice={1}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {},
+        {
+          "flex": 0,
+          "height": 30,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={30}
+    vbWidth={180}
+    width="100%"
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGRect
+        clipPath="dexPrice-animated-diff"
+        fill={
+          {
+            "brushRef": "dexPrice-diff",
+            "type": 1,
+          }
+        }
+        height="100%"
+        propList={
+          [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="dexPrice-animated-diff"
+        >
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="30"
+            rx="4"
+            ry="4"
+            width="150"
+            x="0"
+            y="0"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            [
+              0,
+              -1250325,
+              0.5,
+              -1,
+              1,
+              -1250325,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="dexPrice-diff"
+          x1="-100%"
+          x2="0%"
+          y1="0"
+          y2="0"
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`Skeleton Loader should match snapshot of dex skeleton loader 1`] = `
+<View
+  style={
+    [
+      {
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "marginBottom": 8,
+        "paddingBottom": 16,
+        "paddingLeft": 20,
+        "paddingRight": 20,
+        "paddingTop": 16,
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+  testID="dex_skeleton_loader"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="88"
+    bbWidth="100%"
+    focusable={false}
+    height={88}
+    interval={0.25}
+    meetOrSlice={1}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {},
+        {
+          "flex": 0,
+          "height": 88,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={88}
+    vbWidth={335}
+    width="100%"
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGRect
+        clipPath="dex-animated-diff"
+        fill={
+          {
+            "brushRef": "dex-diff",
+            "type": 1,
+          }
+        }
+        height="100%"
+        propList={
+          [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="dex-animated-diff"
+        >
+          <RNSVGCircle
+            cx="35"
+            cy="25"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            r="20"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="24"
+            rx="4"
+            ry="4"
+            width="112"
+            x="60"
+            y="12"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="30"
+            rx="4"
+            ry="4"
+            width="64"
+            x="256"
+            y="7"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="12"
+            rx="4"
+            ry="4"
+            width="200"
+            x="10"
+            y="55"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="12"
+            rx="4"
+            ry="4"
+            width="200"
+            x="10"
+            y="70"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="30"
+            rx="4"
+            ry="4"
+            width="72"
+            x="248"
+            y="55"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            [
+              0,
+              -1250325,
+              0.5,
+              -1,
+              1,
+              -1250325,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="dex-diff"
+          x1="-100%"
+          x2="0%"
+          y1="0"
+          y2="0"
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`Skeleton Loader should match snapshot of loan skeleton loader 1`] = `
+<View
+  style={
+    [
+      {
+        "flexDirection": "row",
+        "justifyContent": "space-around",
+        "marginLeft": 8,
+        "marginRight": 8,
+        "marginTop": 8,
+        "paddingBottom": 4,
+        "paddingTop": 4,
+      },
+      {
+        "backgroundColor": "rgba(250, 250, 250, 1)",
+      },
+    ]
+  }
+  testID="loan_skeleton_loader"
+>
+  <View
+    style={
+      [
+        [
+          {
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+          },
+          {
+            "flexBasis": "47%",
+          },
+        ],
+        {
+          "backgroundColor": "rgba(255, 255, 255, 1)",
+          "borderBottomColor": "rgba(229, 229, 229, 1)",
+          "borderBottomWidth": 1,
+          "borderLeftColor": "rgba(229, 229, 229, 1)",
+          "borderLeftWidth": 1,
+          "borderRightColor": "rgba(229, 229, 229, 1)",
+          "borderRightWidth": 1,
+          "borderTopColor": "rgba(229, 229, 229, 1)",
+          "borderTopWidth": 1,
+        },
+      ]
+    }
+  >
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight="144"
+      bbWidth="100%"
+      focusable={false}
+      height={144}
+      interval={0.25}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        [
+          {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          {},
+          {
+            "flex": 0,
+            "height": 144,
+            "width": "100%",
+          },
+        ]
+      }
+      vbHeight={144}
+      vbWidth={163}
+      width="100%"
+    >
+      <RNSVGGroup
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+      >
+        <RNSVGRect
+          clipPath="loan-animated-diff"
+          fill={
+            {
+              "brushRef": "loan-diff",
+              "type": 1,
+            }
+          }
+          height="100%"
+          propList={
+            [
+              "fill",
+            ]
+          }
+          width="100%"
+          x="0"
+          y="0"
+        />
+        <RNSVGDefs>
+          <RNSVGClipPath
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            name="loan-animated-diff"
+          >
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="14"
+              rx="6"
+              ry="6"
+              width="90"
+              x="48"
+              y="24"
+            />
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="12"
+              rx="5"
+              ry="5"
+              width="51"
+              x="13"
+              y="56"
+            />
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="12"
+              rx="6"
+              ry="6"
+              width="96"
+              x="13"
+              y="75"
+            />
+            <RNSVGCircle
+              cx="26"
+              cy="31"
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              r="13"
+            />
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="12"
+              rx="6"
+              ry="6"
+              width="51"
+              x="13"
+              y="100"
+            />
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="12"
+              rx="6"
+              ry="6"
+              width="96"
+              x="13"
+              y="118"
+            />
+          </RNSVGClipPath>
+          <RNSVGLinearGradient
+            gradient={
+              [
+                0,
+                -1250325,
+                0.5,
+                -1,
+                1,
+                -1250325,
+              ]
+            }
+            gradientTransform={null}
+            gradientUnits={0}
+            name="loan-diff"
+            x1="-100%"
+            x2="0%"
+            y1="0"
+            y2="0"
+          />
+        </RNSVGDefs>
+      </RNSVGGroup>
+    </RNSVGSvgView>
+  </View>
+  <View
+    style={
+      [
+        [
+          {
+            "borderBottomLeftRadius": 4,
+            "borderBottomRightRadius": 4,
+            "borderTopLeftRadius": 4,
+            "borderTopRightRadius": 4,
+          },
+          {
+            "flexBasis": "47%",
+          },
+        ],
+        {
+          "backgroundColor": "rgba(255, 255, 255, 1)",
+          "borderBottomColor": "rgba(229, 229, 229, 1)",
+          "borderBottomWidth": 1,
+          "borderLeftColor": "rgba(229, 229, 229, 1)",
+          "borderLeftWidth": 1,
+          "borderRightColor": "rgba(229, 229, 229, 1)",
+          "borderRightWidth": 1,
+          "borderTopColor": "rgba(229, 229, 229, 1)",
+          "borderTopWidth": 1,
+        },
+      ]
+    }
+  >
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight="144"
+      bbWidth="100%"
+      focusable={false}
+      height={144}
+      interval={0.25}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        [
+          {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          {},
+          {
+            "flex": 0,
+            "height": 144,
+            "width": "100%",
+          },
+        ]
+      }
+      vbHeight={144}
+      vbWidth={163}
+      width="100%"
+    >
+      <RNSVGGroup
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+      >
+        <RNSVGRect
+          clipPath="loan-animated-diff"
+          fill={
+            {
+              "brushRef": "loan-diff",
+              "type": 1,
+            }
+          }
+          height="100%"
+          propList={
+            [
+              "fill",
+            ]
+          }
+          width="100%"
+          x="0"
+          y="0"
+        />
+        <RNSVGDefs>
+          <RNSVGClipPath
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            name="loan-animated-diff"
+          >
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="14"
+              rx="6"
+              ry="6"
+              width="90"
+              x="48"
+              y="24"
+            />
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="12"
+              rx="5"
+              ry="5"
+              width="51"
+              x="13"
+              y="56"
+            />
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="12"
+              rx="6"
+              ry="6"
+              width="96"
+              x="13"
+              y="75"
+            />
+            <RNSVGCircle
+              cx="26"
+              cy="31"
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              r="13"
+            />
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="12"
+              rx="6"
+              ry="6"
+              width="51"
+              x="13"
+              y="100"
+            />
+            <RNSVGRect
+              fill={
+                {
+                  "payload": 4278190080,
+                  "type": 0,
+                }
+              }
+              height="12"
+              rx="6"
+              ry="6"
+              width="96"
+              x="13"
+              y="118"
+            />
+          </RNSVGClipPath>
+          <RNSVGLinearGradient
+            gradient={
+              [
+                0,
+                -1250325,
+                0.5,
+                -1,
+                1,
+                -1250325,
+              ]
+            }
+            gradientTransform={null}
+            gradientUnits={0}
+            name="loan-diff"
+            x1="-100%"
+            x2="0%"
+            y1="0"
+            y2="0"
+          />
+        </RNSVGDefs>
+      </RNSVGGroup>
+    </RNSVGSvgView>
+  </View>
+</View>
+`;
+
+exports[`Skeleton Loader should match snapshot of mnemonic word skeleton loader 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomColor": "rgba(229, 229, 229, 1)",
+        "borderBottomWidth": 1,
+        "borderLeftColor": "rgba(229, 229, 229, 1)",
+        "borderRightColor": "rgba(229, 229, 229, 1)",
+        "borderTopColor": "rgba(229, 229, 229, 1)",
+      },
+    ]
+  }
+  testID="mnemonic_word_skeleton_loader"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="47"
+    bbWidth="100%"
+    focusable={false}
+    height={47}
+    interval={0.25}
+    meetOrSlice={1}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {},
+        {
+          "flex": 0,
+          "height": 47,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={47}
+    vbWidth={400}
+    width="100%"
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGRect
+        clipPath="mnemonic_word-animated-diff"
+        fill={
+          {
+            "brushRef": "mnemonic_word-diff",
+            "type": 1,
+          }
+        }
+        height="100%"
+        propList={
+          [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="mnemonic_word-animated-diff"
+        >
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="33"
+            rx="3"
+            ry="3"
+            width="290"
+            x="70"
+            y="3"
+          />
+          <RNSVGCircle
+            cx="20"
+            cy="20"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            matrix={
+              [
+                1,
+                0,
+                -0,
+                1,
+                20,
+                0,
+              ]
+            }
+            r="20"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            [
+              0,
+              -1250325,
+              0.5,
+              -1,
+              1,
+              -1250325,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="mnemonic_word-diff"
+          x1="-100%"
+          x2="0%"
+          y1="0"
+          y2="0"
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`Skeleton Loader should match snapshot of mnemonic word skeleton loader v2 1`] = `
+<View
+  style={
+    [
+      {
+        "borderBottomWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "center",
+        "marginLeft": 20,
+        "marginRight": 20,
+        "paddingBottom": 20,
+        "paddingTop": 20,
+      },
+      {
+        "borderBottomColor": "rgba(204, 204, 204, 1)",
+        "borderLeftColor": "rgba(204, 204, 204, 1)",
+        "borderRightColor": "rgba(204, 204, 204, 1)",
+        "borderTopColor": "rgba(204, 204, 204, 1)",
+      },
+    ]
+  }
+  testID="mnemonic_word_skeleton_loader"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="20"
+    bbWidth="100%"
+    focusable={false}
+    height={20}
+    interval={0.25}
+    meetOrSlice={1}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {},
+        {
+          "flex": 0,
+          "height": 20,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={20}
+    vbWidth={328}
+    width="100%"
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGRect
+        clipPath="mnemonic_word_v2-animated-diff"
+        fill={
+          {
+            "brushRef": "mnemonic_word_v2-diff",
+            "type": 1,
+          }
+        }
+        height="100%"
+        propList={
+          [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="mnemonic_word_v2-animated-diff"
+        >
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="16"
+            rx="5"
+            ry="5"
+            width="226"
+            x="18"
+            y="2"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            [
+              0,
+              -855310,
+              0.5,
+              -1,
+              1,
+              -855310,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="mnemonic_word_v2-diff"
+          x1="-100%"
+          x2="0%"
+          y1="0"
+          y2="0"
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`Skeleton Loader should match snapshot of portfolio skeleton loader 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "justifyContent": "center",
+        "marginTop": 8,
+        "paddingBottom": 16,
+        "paddingTop": 16,
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+  testID="portfolio_skeleton_loader"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="44"
+    bbWidth="100%"
+    focusable={false}
+    height={44}
+    interval={0.25}
+    meetOrSlice={1}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {},
+        {
+          "flex": 0,
+          "height": 44,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={44}
+    vbWidth={328}
+    width="100%"
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGRect
+        clipPath="portfolio_scheme-animated-diff"
+        fill={
+          {
+            "brushRef": "portfolio_scheme-diff",
+            "type": 1,
+          }
+        }
+        height="100%"
+        propList={
+          [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="portfolio_scheme-animated-diff"
+        >
+          <RNSVGCircle
+            cx="38"
+            cy="22"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            r="18"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="16"
+            rx="5"
+            ry="5"
+            width="90"
+            x="66"
+            y="4"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="12"
+            rx="5"
+            ry="5"
+            width="90"
+            x="66"
+            y="25"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="16"
+            rx="5"
+            ry="5"
+            width="88"
+            x="220"
+            y="4"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="12"
+            rx="5"
+            ry="5"
+            width="88"
+            x="220"
+            y="25"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            [
+              0,
+              -1250325,
+              0.5,
+              -1,
+              1,
+              -1250325,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="portfolio_scheme-diff"
+          x1="-100%"
+          x2="0%"
+          y1="0"
+          y2="0"
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`Skeleton Loader should match snapshot of transaction skeleton loader 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomColor": "rgba(229, 229, 229, 1)",
+        "borderBottomWidth": 1,
+        "borderLeftColor": "rgba(229, 229, 229, 1)",
+        "borderRightColor": "rgba(229, 229, 229, 1)",
+        "borderTopColor": "rgba(229, 229, 229, 1)",
+      },
+    ]
+  }
+  testID="transaction_skeleton_loader"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="47"
+    bbWidth="100%"
+    focusable={false}
+    height={47}
+    interval={0.25}
+    meetOrSlice={1}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {},
+        {
+          "flex": 0,
+          "height": 47,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={47}
+    vbWidth={344}
+    width="100%"
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGRect
+        clipPath="transaction-animated-diff"
+        fill={
+          {
+            "brushRef": "transaction-diff",
+            "type": 1,
+          }
+        }
+        height="100%"
+        propList={
+          [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="transaction-animated-diff"
+        >
+          <RNSVGCircle
+            cx="17"
+            cy="23"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            r="10"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="15"
+            width="100"
+            x="44"
+            y="7"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="10"
+            width="100"
+            x="44"
+            y="29"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="15"
+            width="85"
+            x="250"
+            y="16"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            [
+              0,
+              -1250325,
+              0.5,
+              -1,
+              1,
+              -1250325,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="transaction-diff"
+          x1="-100%"
+          x2="0%"
+          y1="0"
+          y2="0"
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`Skeleton Loader should match snapshot of vault scheme skeleton loader 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomWidth": 0.5,
+        "justifyContent": "center",
+        "marginLeft": 20,
+        "marginRight": 20,
+      },
+      {
+        "backgroundColor": "transparent",
+        "borderBottomColor": "rgba(204, 204, 204, 1)",
+        "borderLeftColor": "rgba(204, 204, 204, 1)",
+        "borderRightColor": "rgba(204, 204, 204, 1)",
+        "borderTopColor": "rgba(204, 204, 204, 1)",
+      },
+    ]
+  }
+  testID="portfolio_skeleton_loader"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="90"
+    bbWidth="100%"
+    focusable={false}
+    height={90}
+    interval={0.25}
+    meetOrSlice={1}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {},
+        {
+          "flex": 0,
+          "height": 90,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={90}
+    vbWidth={300}
+    width="100%"
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGRect
+        clipPath="vault_scheme-animated-diff"
+        fill={
+          {
+            "brushRef": "vault_scheme-diff",
+            "type": 1,
+          }
+        }
+        height="100%"
+        propList={
+          [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="vault_scheme-animated-diff"
+        >
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="20"
+            rx="4"
+            ry="4"
+            width="160"
+            x="6"
+            y="22"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="20"
+            rx="4"
+            ry="4"
+            width="160"
+            x="6"
+            y="50"
+          />
+          <RNSVGCircle
+            cx="280"
+            cy="45"
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            r="14"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            [
+              0,
+              -1250325,
+              0.5,
+              -1,
+              1,
+              -1250325,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="vault_scheme-diff"
+          x1="-100%"
+          x2="0%"
+          y1="0"
+          y2="0"
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;
+
+exports[`Skeleton Loader should match snapshot of vault skeleton loader 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+        "marginLeft": 16,
+        "marginRight": 16,
+        "marginTop": 8,
+        "paddingBottom": 16,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 16,
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "borderBottomColor": "rgba(229, 229, 229, 1)",
+        "borderBottomWidth": 1,
+        "borderLeftColor": "rgba(229, 229, 229, 1)",
+        "borderLeftWidth": 1,
+        "borderRightColor": "rgba(229, 229, 229, 1)",
+        "borderRightWidth": 1,
+        "borderTopColor": "rgba(229, 229, 229, 1)",
+        "borderTopWidth": 1,
+      },
+    ]
+  }
+  testID="vault_skeleton_loader"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="130"
+    bbWidth="100%"
+    focusable={false}
+    height={130}
+    interval={0.25}
+    meetOrSlice={1}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {},
+        {
+          "flex": 0,
+          "height": 130,
+          "width": "100%",
+        },
+      ]
+    }
+    vbHeight={130}
+    vbWidth={328}
+    width="100%"
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGRect
+        clipPath="vault-animated-diff"
+        fill={
+          {
+            "brushRef": "vault-diff",
+            "type": 1,
+          }
+        }
+        height="100%"
+        propList={
+          [
+            "fill",
+          ]
+        }
+        width="100%"
+        x="0"
+        y="0"
+      />
+      <RNSVGDefs>
+        <RNSVGClipPath
+          fill={
+            {
+              "payload": 4278190080,
+              "type": 0,
+            }
+          }
+          name="vault-animated-diff"
+        >
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="16"
+            width="60"
+            x="0"
+            y="13"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="16"
+            width="60"
+            x="70"
+            y="13"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="16"
+            width="240"
+            x="0"
+            y="33"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="15"
+            width="150"
+            x="0"
+            y="53"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="15"
+            width="130"
+            x="0"
+            y="90"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="15"
+            width="140"
+            x="220"
+            y="90"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="15"
+            width="130"
+            x="0"
+            y="115"
+          />
+          <RNSVGRect
+            fill={
+              {
+                "payload": 4278190080,
+                "type": 0,
+              }
+            }
+            height="15"
+            width="140"
+            x="220"
+            y="115"
+          />
+        </RNSVGClipPath>
+        <RNSVGLinearGradient
+          gradient={
+            [
+              0,
+              -1250325,
+              0.5,
+              -1,
+              1,
+              -1250325,
+            ]
+          }
+          gradientTransform={null}
+          gradientUnits={0}
+          name="vault-diff"
+          x1="-100%"
+          x2="0%"
+          y1="0"
+          y2="0"
+        />
+      </RNSVGDefs>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+</View>
+`;

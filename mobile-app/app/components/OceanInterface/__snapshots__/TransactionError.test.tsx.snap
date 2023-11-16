@@ -1,0 +1,2287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`info text should match snapshot for error At least 50% of the vault must be in DFI when taking a loan 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            undefined,
+            {
+              "color": "rgba(255, 0, 0, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 4
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        Insufficient DFI collateral. (≥50%)
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          [
+            {
+              "fontFamily": "SoraBold",
+              "fontWeight": "700",
+              "paddingBottom": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 24,
+            },
+            {
+              "color": "rgba(89, 89, 89, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`info text should match snapshot for error Cannot payback loan while any of the asset's price is invalid 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            undefined,
+            {
+              "color": "rgba(255, 0, 0, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 6
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        Unable to payback loan due to invalid price.
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          [
+            {
+              "fontFamily": "SoraBold",
+              "fontWeight": "700",
+              "paddingBottom": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 24,
+            },
+            {
+              "color": "rgba(89, 89, 89, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`info text should match snapshot for error Error: Not found, code: 404, message: Page not found 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            undefined,
+            {
+              "color": "rgba(255, 0, 0, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 0
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        404, message Page not found
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          [
+            {
+              "fontFamily": "SoraBold",
+              "fontWeight": "700",
+              "paddingBottom": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 24,
+            },
+            {
+              "color": "rgba(89, 89, 89, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`info text should match snapshot for error Lack of liquidity 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            undefined,
+            {
+              "color": "rgba(255, 0, 0, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 5
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        Insufficient liquidity.
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          [
+            {
+              "fontFamily": "SoraBold",
+              "fontWeight": "700",
+              "paddingBottom": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 24,
+            },
+            {
+              "color": "rgba(89, 89, 89, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`info text should match snapshot for error No live fixed prices 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            undefined,
+            {
+              "color": "rgba(255, 0, 0, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 7
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        No live fixed prices for loan token.
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          [
+            {
+              "fontFamily": "SoraBold",
+              "fontWeight": "700",
+              "paddingBottom": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 24,
+            },
+            {
+              "color": "rgba(89, 89, 89, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`info text should match snapshot for error Swap price is higher than the range allowed by the slippage tolerance. Increase tolerance percentage to proceed. 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            undefined,
+            {
+              "color": "rgba(255, 0, 0, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 0
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        Swap price is higher than the range allowed by the slippage tolerance. Increase tolerance percentage to proceed.
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          [
+            {
+              "fontFamily": "SoraBold",
+              "fontWeight": "700",
+              "paddingBottom": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 24,
+            },
+            {
+              "color": "rgba(89, 89, 89, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`info text should match snapshot for error UnknownError 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text />
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 0
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        UnknownError
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text />
+  </View>
+</View>
+`;
+
+exports[`info text should match snapshot for error Vault does not have enough collateralization ratio defined by loan scheme 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            undefined,
+            {
+              "color": "rgba(255, 0, 0, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 8
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        Vault does not meet min. collateral ratio. Add collateral to proceed.
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          [
+            {
+              "fontFamily": "SoraBold",
+              "fontWeight": "700",
+              "paddingBottom": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 24,
+            },
+            {
+              "color": "rgba(89, 89, 89, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`info text should match snapshot for error amount is less than 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            undefined,
+            {
+              "color": "rgba(255, 0, 0, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 2
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        Insufficient balance. Top up to proceed.
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          [
+            {
+              "fontFamily": "SoraBold",
+              "fontWeight": "700",
+              "paddingBottom": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 24,
+            },
+            {
+              "color": "rgba(89, 89, 89, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`info text should match snapshot for error no prevouts available to create a transaction 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            undefined,
+            {
+              "color": "rgba(255, 0, 0, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 1
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        Insufficient UTXO DFI.
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          [
+            {
+              "fontFamily": "SoraBold",
+              "fontWeight": "700",
+              "paddingBottom": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 24,
+            },
+            {
+              "color": "rgba(89, 89, 89, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`info text should match snapshot for error not enough balance after combing all prevouts 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "borderBottomColor": "rgba(255, 0, 0, 1)",
+        "borderBottomLeftRadius": 10,
+        "borderBottomRightRadius": 10,
+        "borderBottomWidth": 0.5,
+        "borderLeftColor": "rgba(255, 0, 0, 1)",
+        "borderLeftWidth": 0.5,
+        "borderRightColor": "rgba(255, 0, 0, 1)",
+        "borderRightWidth": 0.5,
+        "borderTopColor": "rgba(255, 0, 0, 1)",
+        "borderTopLeftRadius": 10,
+        "borderTopRightRadius": 10,
+        "borderTopWidth": 0.5,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 20,
+        "width": "100%",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingBottom": 12,
+        "paddingTop": 12,
+        "width": "75%",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 20,
+          },
+          [
+            undefined,
+            {
+              "color": "rgba(255, 0, 0, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+    <View
+      style={
+        {
+          "marginLeft": 10,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "fontFamily": "RegularFont",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "lineHeight": 24,
+              },
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 14,
+                  "fontWeight": "400",
+                  "lineHeight": 20,
+                },
+                {
+                  "color": "rgba(18, 18, 18, 1)",
+                },
+              ],
+            ]
+          }
+        >
+          Error Code: 1
+        </Text>
+      </View>
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={0}
+        onTextLayout={[Function]}
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraRegular",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 20,
+              },
+              {
+                "color": "rgba(89, 89, 89, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        Insufficient UTXO DFI.
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+      }
+    }
+    testID="oceanInterface_close"
+  >
+    <Text
+      allowFontScaling={false}
+      selectable={false}
+      style={
+        [
+          {
+            "color": undefined,
+            "fontSize": 18,
+          },
+          [
+            {
+              "fontFamily": "SoraBold",
+              "fontWeight": "700",
+              "paddingBottom": 24,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 24,
+            },
+            {
+              "color": "rgba(89, 89, 89, 1)",
+            },
+          ],
+          {
+            "fontFamily": "material",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;

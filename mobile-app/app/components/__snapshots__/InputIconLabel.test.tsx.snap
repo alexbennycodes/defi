@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input icon label should match the output in 0 screen 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontFamily": "RegularFont",
+        "fontSize": 16,
+        "fontWeight": "400",
+        "lineHeight": 24,
+      },
+      [
+        {
+          "marginLeft": 8,
+          "textAlign": "right",
+        },
+        {
+          "color": "rgba(115, 115, 115, 1)",
+        },
+      ],
+    ]
+  }
+>
+  DFI (UTXO)
+</Text>
+`;
+
+exports[`input icon label should match the output in 1 screen 1`] = `
+<Text
+  style={
+    [
+      {
+        "fontFamily": "RegularFont",
+        "fontSize": 16,
+        "fontWeight": "400",
+        "lineHeight": 24,
+      },
+      [
+        {
+          "marginLeft": 8,
+          "textAlign": "right",
+        },
+        {
+          "color": "rgba(115, 115, 115, 1)",
+        },
+      ],
+    ]
+  }
+>
+  DFI (Token)
+</Text>
+`;

@@ -1,0 +1,710 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CommunityScreen /> should match snapshot 1`] = `
+<RCTScrollView
+  ListHeaderComponent={
+    <ThemedSectionTitleV2
+      testID="community_title"
+      text="JOIN THE COMMUNITY"
+    />
+  }
+  data={
+    [
+      {
+        "icon": "bell",
+        "id": "announcements",
+        "title": "Announcements",
+        "url": "https://t.me/defichain_announcements",
+      },
+      {
+        "icon": "help-circle",
+        "id": "faq",
+        "title": "Frequently asked questions",
+        "url": "https://defichain.com/learn/#faq",
+      },
+      {
+        "icon": "flag",
+        "id": "gh",
+        "title": "Report issue on GitHub",
+        "url": "https://github.com/DeFiCh/wallet/issues",
+      },
+      {
+        "icon": "message-square",
+        "id": "tg_en",
+        "title": "Telegram (EN)",
+        "url": "https://t.me/defiblockchain",
+      },
+      {
+        "icon": "message-square",
+        "id": "tg_de",
+        "title": "Telegram (DE)",
+        "url": "https://t.me/defiblockchain_DE",
+      },
+      {
+        "icon": "message-square",
+        "id": "wechat",
+        "title": "WeChat",
+        "url": "http://weixin.qq.com/r/0xz07DzEdmEJrXiP90nB",
+      },
+    ]
+  }
+  getItem={[Function]}
+  getItemCount={[Function]}
+  keyExtractor={[Function]}
+  onContentSizeChange={[Function]}
+  onLayout={[Function]}
+  onMomentumScrollBegin={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={[]}
+  style={
+    [
+      {
+        "paddingLeft": 20,
+        "paddingRight": 20,
+      },
+      {
+        "backgroundColor": "rgba(242, 242, 242, 1)",
+      },
+    ]
+  }
+  testID="community_flat_list"
+  viewabilityConfigCallbackPairs={[]}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              [
+                {
+                  "fontFamily": "SoraRegular",
+                  "fontSize": 12,
+                  "fontWeight": "400",
+                  "lineHeight": 16,
+                  "paddingBottom": 8,
+                  "paddingLeft": 20,
+                  "paddingRight": 20,
+                  "paddingTop": 24,
+                },
+                undefined,
+              ],
+              {
+                "color": "rgba(115, 115, 115, 1)",
+              },
+            ],
+          ]
+        }
+        testID="community_title"
+        text="JOIN THE COMMUNITY"
+      >
+        JOIN THE COMMUNITY
+      </Text>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          [
+            {
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+            },
+            {
+              "backgroundColor": "rgba(255, 255, 255, 1)",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {},
+              {
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+              },
+            ]
+          }
+          testID="announcements"
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderBottomWidth": 0,
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderLeftWidth": 0,
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderRightWidth": 0,
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+                "borderTopWidth": 0,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "paddingBottom": 18,
+                "paddingTop": 18,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "flexBasis": "0%",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "marginRight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+            >
+              Announcements
+            </Text>
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          [
+            {
+              "paddingLeft": 20,
+              "paddingRight": 20,
+            },
+            {
+              "backgroundColor": "rgba(255, 255, 255, 1)",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopWidth": 0.5,
+              },
+              {
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+              },
+            ]
+          }
+          testID="faq"
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderBottomWidth": 0,
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderLeftWidth": 0,
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderRightWidth": 0,
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+                "borderTopWidth": 0,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "paddingBottom": 18,
+                "paddingTop": 18,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "flexBasis": "0%",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "marginRight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+            >
+              Frequently asked questions
+            </Text>
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          [
+            {
+              "paddingLeft": 20,
+              "paddingRight": 20,
+            },
+            {
+              "backgroundColor": "rgba(255, 255, 255, 1)",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopWidth": 0.5,
+              },
+              {
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+              },
+            ]
+          }
+          testID="gh"
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderBottomWidth": 0,
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderLeftWidth": 0,
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderRightWidth": 0,
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+                "borderTopWidth": 0,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "paddingBottom": 18,
+                "paddingTop": 18,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "flexBasis": "0%",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "marginRight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+            >
+              Report issue on GitHub
+            </Text>
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          [
+            {
+              "paddingLeft": 20,
+              "paddingRight": 20,
+            },
+            {
+              "backgroundColor": "rgba(255, 255, 255, 1)",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopWidth": 0.5,
+              },
+              {
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+              },
+            ]
+          }
+          testID="tg_en"
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderBottomWidth": 0,
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderLeftWidth": 0,
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderRightWidth": 0,
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+                "borderTopWidth": 0,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "paddingBottom": 18,
+                "paddingTop": 18,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "flexBasis": "0%",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "marginRight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+            >
+              Telegram (EN)
+            </Text>
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          [
+            {
+              "paddingLeft": 20,
+              "paddingRight": 20,
+            },
+            {
+              "backgroundColor": "rgba(255, 255, 255, 1)",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopWidth": 0.5,
+              },
+              {
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+              },
+            ]
+          }
+          testID="tg_de"
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderBottomWidth": 0,
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderLeftWidth": 0,
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderRightWidth": 0,
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+                "borderTopWidth": 0,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "paddingBottom": 18,
+                "paddingTop": 18,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "flexBasis": "0%",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "marginRight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+            >
+              Telegram (DE)
+            </Text>
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          [
+            {
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+            },
+            {
+              "backgroundColor": "rgba(255, 255, 255, 1)",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            [
+              {
+                "borderTopWidth": 0.5,
+              },
+              {
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+              },
+            ]
+          }
+          testID="wechat"
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderBottomWidth": 0,
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderLeftWidth": 0,
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderRightWidth": 0,
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+                "borderTopWidth": 0,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "opacity": 1,
+                "paddingBottom": 18,
+                "paddingTop": 18,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "flexBasis": "0%",
+                      "flexGrow": 1,
+                      "flexShrink": 1,
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 14,
+                      "fontWeight": "400",
+                      "lineHeight": 20,
+                      "marginRight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+            >
+              WeChat
+            </Text>
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

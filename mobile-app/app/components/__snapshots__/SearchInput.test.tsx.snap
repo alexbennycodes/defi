@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Input should match snapshot 1`] = `
+<View
+  style={
+    [
+      [
+        {
+          "alignItems": "center",
+          "borderBottomLeftRadius": 9999,
+          "borderBottomRightRadius": 9999,
+          "borderTopLeftRadius": 9999,
+          "borderTopRightRadius": 9999,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingBottom": 12,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 12,
+        },
+        {
+          "flexBasis": "0%",
+          "flexGrow": 1,
+          "flexShrink": 1,
+        },
+      ],
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+>
+  <Text />
+  <TextInput
+    placeholderTextColor="rgba(115, 115, 115, 1)"
+    selectionColor="rgba(255, 0, 140, 1)"
+    showClearButton={true}
+    style={
+      [
+        [
+          undefined,
+          {
+            "flexBasis": "0%",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "fontFamily": "SoraRegular",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "lineHeight": 16,
+            "width": "66.666667%",
+          },
+          {},
+        ],
+        {
+          "color": "rgba(43, 43, 43, 1)",
+        },
+      ]
+    }
+  />
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "display": "flex",
+        "flexDirection": "row",
+        "marginLeft": 8,
+        "opacity": 1,
+      }
+    }
+    testID="undefined_clear_btn"
+  >
+    <Text />
+  </View>
+</View>
+`;

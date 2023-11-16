@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup component should match snapshot with 2 buttons 1`] = `
+<View
+  style={
+    [
+      {
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+      },
+    ]
+  }
+  testID="foo"
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "width": "33.33%",
+      }
+    }
+    testID="foo_ALL_PAIRS_active"
+  >
+    <View
+      style={
+        [
+          {
+            "borderBottomColor": "rgba(255, 0, 140, 1)",
+            "borderBottomWidth": 2,
+            "borderLeftColor": "rgba(255, 0, 140, 1)",
+            "borderRightColor": "rgba(255, 0, 140, 1)",
+            "borderTopColor": "rgba(255, 0, 140, 1)",
+            "justifyContent": "center",
+            "overflowWrap": "break-word",
+            "paddingBottom": 16,
+            "paddingTop": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraSemiBold",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "textAlign": "center",
+              },
+              {
+                "color": "rgba(255, 0, 140, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        All pairs
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "width": "33.33%",
+      }
+    }
+    testID="foo_DFI_PAIRS"
+  >
+    <View
+      style={
+        [
+          {
+            "borderBottomColor": "rgba(255, 0, 140, 1)",
+            "borderLeftColor": "rgba(255, 0, 140, 1)",
+            "borderRightColor": "rgba(255, 0, 140, 1)",
+            "borderTopColor": "rgba(255, 0, 140, 1)",
+            "justifyContent": "center",
+            "overflowWrap": "break-word",
+            "paddingBottom": 16,
+            "paddingTop": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraSemiBold",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "textAlign": "center",
+              },
+              {
+                "color": "rgba(18, 18, 18, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        DFI pairs
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "opacity": 1,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "width": "33.33%",
+      }
+    }
+    testID="foo_DUSD_PAIRS"
+  >
+    <View
+      style={
+        [
+          {
+            "borderBottomColor": "rgba(255, 0, 140, 1)",
+            "borderLeftColor": "rgba(255, 0, 140, 1)",
+            "borderRightColor": "rgba(255, 0, 140, 1)",
+            "borderTopColor": "rgba(255, 0, 140, 1)",
+            "justifyContent": "center",
+            "overflowWrap": "break-word",
+            "paddingBottom": 16,
+            "paddingTop": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "fontFamily": "RegularFont",
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 24,
+            },
+            [
+              {
+                "fontFamily": "SoraSemiBold",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 20,
+                "textAlign": "center",
+              },
+              {
+                "color": "rgba(18, 18, 18, 1)",
+              },
+            ],
+          ]
+        }
+      >
+        DUSD pairs
+      </Text>
+    </View>
+  </View>
+</View>
+`;

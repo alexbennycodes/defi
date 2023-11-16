@@ -1,0 +1,1513 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Vault card should match snapshot of active vault 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 8,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "borderBottomColor": "rgba(204, 204, 204, 1)",
+        "borderBottomWidth": 0,
+        "borderLeftColor": "rgba(204, 204, 204, 1)",
+        "borderLeftWidth": 0,
+        "borderRightColor": "rgba(204, 204, 204, 1)",
+        "borderRightWidth": 0,
+        "borderTopColor": "rgba(204, 204, 204, 1)",
+        "borderTopWidth": 0,
+        "opacity": 1,
+      }
+    }
+    testID="vault_"
+  >
+    <View
+      style={
+        {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderBottomWidth": 0,
+              "borderLeftWidth": 0,
+              "borderRightWidth": 0,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "borderTopWidth": 0,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+            {
+              "backgroundColor": "rgba(255, 255, 255, 1)",
+            },
+          ]
+        }
+        testID="vault"
+      >
+        <View
+          style={
+            {
+              "flexBasis": "0%",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "position": "relative",
+                },
+                {
+                  "right": 0,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              {
+                "marginTop": 12,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(89, 89, 89, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_max_loan_label"
+            >
+              Max loan amount
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_max_loan_amount"
+            >
+              $0.00
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(89, 89, 89, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_total_collateral_label"
+            >
+              Total collateral
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_total_collateral_amount"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          <react-native-circular-progress-indicator/mock
+            activeStrokeColor="rgba(229, 69, 69, 1)"
+            activeStrokeWidth={3}
+            clockwise={false}
+            inActiveStrokeColor="rgba(242, 242, 242, 1)"
+            inActiveStrokeWidth={3}
+            maxValue={1}
+            radius={58}
+            showProgressValue={false}
+            value={0.01}
+          />
+          <View
+            style={
+              [
+                {
+                  "height": "100%",
+                  "position": "absolute",
+                },
+                {
+                  "maxHeight": 116,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexBasis": "0%",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "flex-end",
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  [
+                    {
+                      "fontFamily": "RegularFont",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                    },
+                    [
+                      [
+                        {
+                          "fontFamily": "SoraRegular",
+                          "fontSize": 12,
+                          "fontWeight": "400",
+                          "lineHeight": 16,
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
+                        },
+                        {
+                          "maxWidth": 124,
+                          "minWidth": 10,
+                        },
+                      ],
+                      {
+                        "color": "rgba(89, 89, 89, 1)",
+                      },
+                    ],
+                  ]
+                }
+                testID="vault_vault_id"
+              >
+                22ffasd5ca123123123123123121231061
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "RegularFont",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                    },
+                    [
+                      {
+                        "fontFamily": "SoraSemiBold",
+                        "fontSize": 16,
+                        "fontWeight": "600",
+                        "lineHeight": 24,
+                        "textAlign": "center",
+                      },
+                      {
+                        "color": "rgba(229, 69, 69, 1)",
+                      },
+                    ],
+                  ]
+                }
+                testID="vault_min_ratio"
+              >
+                0.00%
+              </Text>
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgba(0, 0, 0, 1)",
+                  "borderBottomLeftRadius": 9999,
+                  "borderBottomRightRadius": 9999,
+                  "borderBottomWidth": 0,
+                  "borderLeftWidth": 0,
+                  "borderRightWidth": 0,
+                  "borderTopLeftRadius": 9999,
+                  "borderTopRightRadius": 9999,
+                  "borderTopWidth": 0,
+                  "flexWrap": "wrap",
+                  "marginTop": 8,
+                  "opacity": 1,
+                  "paddingBottom": 8,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "RegularFont",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                    },
+                    [
+                      {
+                        "alignSelf": "center",
+                        "flexWrap": "wrap",
+                        "fontFamily": "SoraSemiBold",
+                        "fontSize": 12,
+                        "fontWeight": "600",
+                        "lineHeight": 16,
+                      },
+                      {
+                        "color": "rgba(242, 242, 242, 1)",
+                      },
+                    ],
+                  ]
+                }
+                testID="vault_borrow_button"
+              >
+                Borrow
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Vault card should match snapshot of at-risk vault 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 8,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "borderBottomColor": "rgba(204, 204, 204, 1)",
+        "borderBottomWidth": 0,
+        "borderLeftColor": "rgba(204, 204, 204, 1)",
+        "borderLeftWidth": 0,
+        "borderRightColor": "rgba(204, 204, 204, 1)",
+        "borderRightWidth": 0,
+        "borderTopColor": "rgba(204, 204, 204, 1)",
+        "borderTopWidth": 0,
+        "opacity": 1,
+      }
+    }
+    testID="vault_"
+  >
+    <View
+      style={
+        {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderBottomWidth": 0,
+              "borderLeftWidth": 0,
+              "borderRightWidth": 0,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "borderTopWidth": 0,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+            {
+              "backgroundColor": "rgba(255, 255, 255, 1)",
+            },
+          ]
+        }
+        testID="vault"
+      >
+        <View
+          style={
+            {
+              "flexBasis": "0%",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "position": "relative",
+                },
+                {
+                  "right": 0,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              {
+                "marginTop": 12,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(89, 89, 89, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_max_loan_label"
+            >
+              Max loan amount
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_max_loan_amount"
+            >
+              $0.00
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(89, 89, 89, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_total_collateral_label"
+            >
+              Total collateral
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_total_collateral_amount"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          <react-native-circular-progress-indicator/mock
+            activeStrokeColor="rgba(229, 69, 69, 1)"
+            activeStrokeWidth={3}
+            clockwise={false}
+            inActiveStrokeColor="rgba(242, 242, 242, 1)"
+            inActiveStrokeWidth={3}
+            maxValue={1}
+            radius={58}
+            showProgressValue={false}
+            value={0.01}
+          />
+          <View
+            style={
+              [
+                {
+                  "height": "100%",
+                  "position": "absolute",
+                },
+                {
+                  "maxHeight": 116,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexBasis": "0%",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "flex-end",
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  [
+                    {
+                      "fontFamily": "RegularFont",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                    },
+                    [
+                      [
+                        {
+                          "fontFamily": "SoraRegular",
+                          "fontSize": 12,
+                          "fontWeight": "400",
+                          "lineHeight": 16,
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
+                        },
+                        {
+                          "maxWidth": 124,
+                          "minWidth": 10,
+                        },
+                      ],
+                      {
+                        "color": "rgba(89, 89, 89, 1)",
+                      },
+                    ],
+                  ]
+                }
+                testID="vault_vault_id"
+              >
+                22ffasd5ca123123123123123121231061
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "RegularFont",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                    },
+                    [
+                      {
+                        "fontFamily": "SoraSemiBold",
+                        "fontSize": 16,
+                        "fontWeight": "600",
+                        "lineHeight": 24,
+                        "textAlign": "center",
+                      },
+                      {
+                        "color": "rgba(229, 69, 69, 1)",
+                      },
+                    ],
+                  ]
+                }
+                testID="vault_min_ratio"
+              >
+                0.00%
+              </Text>
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgba(0, 0, 0, 1)",
+                  "borderBottomLeftRadius": 9999,
+                  "borderBottomRightRadius": 9999,
+                  "borderBottomWidth": 0,
+                  "borderLeftWidth": 0,
+                  "borderRightWidth": 0,
+                  "borderTopLeftRadius": 9999,
+                  "borderTopRightRadius": 9999,
+                  "borderTopWidth": 0,
+                  "flexWrap": "wrap",
+                  "marginTop": 8,
+                  "opacity": 1,
+                  "paddingBottom": 8,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "RegularFont",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                    },
+                    [
+                      {
+                        "alignSelf": "center",
+                        "flexWrap": "wrap",
+                        "fontFamily": "SoraSemiBold",
+                        "fontSize": 12,
+                        "fontWeight": "600",
+                        "lineHeight": 16,
+                      },
+                      {
+                        "color": "rgba(242, 242, 242, 1)",
+                      },
+                    ],
+                  ]
+                }
+                testID="vault_borrow_button"
+              >
+                Borrow
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Vault card should match snapshot of healthy vault 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 8,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "borderBottomColor": "rgba(204, 204, 204, 1)",
+        "borderBottomWidth": 0,
+        "borderLeftColor": "rgba(204, 204, 204, 1)",
+        "borderLeftWidth": 0,
+        "borderRightColor": "rgba(204, 204, 204, 1)",
+        "borderRightWidth": 0,
+        "borderTopColor": "rgba(204, 204, 204, 1)",
+        "borderTopWidth": 0,
+        "opacity": 1,
+      }
+    }
+    testID="vault_"
+  >
+    <View
+      style={
+        {
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "alignItems": "center",
+              "borderBottomLeftRadius": 10,
+              "borderBottomRightRadius": 10,
+              "borderBottomWidth": 0,
+              "borderLeftWidth": 0,
+              "borderRightWidth": 0,
+              "borderTopLeftRadius": 10,
+              "borderTopRightRadius": 10,
+              "borderTopWidth": 0,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingBottom": 20,
+              "paddingLeft": 20,
+              "paddingRight": 20,
+              "paddingTop": 20,
+            },
+            {
+              "backgroundColor": "rgba(255, 255, 255, 1)",
+            },
+          ]
+        }
+        testID="vault"
+      >
+        <View
+          style={
+            {
+              "flexBasis": "0%",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "paddingRight": 8,
+            }
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "position": "relative",
+                },
+                {
+                  "right": 0,
+                },
+              ]
+            }
+          />
+          <View
+            style={
+              {
+                "marginTop": 12,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(89, 89, 89, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_max_loan_label"
+            >
+              Max loan amount
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_max_loan_amount"
+            >
+              $0.00
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "marginTop": 8,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(89, 89, 89, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_total_collateral_label"
+            >
+              Total collateral
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    {
+                      "fontFamily": "SoraRegular",
+                      "fontSize": 12,
+                      "fontWeight": "400",
+                      "lineHeight": 16,
+                    },
+                    {
+                      "color": "rgba(18, 18, 18, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_total_collateral_amount"
+            />
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "column",
+              "flexWrap": "wrap",
+            }
+          }
+        >
+          <react-native-circular-progress-indicator/mock
+            activeStrokeColor="rgba(229, 69, 69, 1)"
+            activeStrokeWidth={3}
+            clockwise={false}
+            inActiveStrokeColor="rgba(242, 242, 242, 1)"
+            inActiveStrokeWidth={3}
+            maxValue={1}
+            radius={58}
+            showProgressValue={false}
+            value={0.01}
+          />
+          <View
+            style={
+              [
+                {
+                  "height": "100%",
+                  "position": "absolute",
+                },
+                {
+                  "maxHeight": 116,
+                },
+              ]
+            }
+          >
+            <View
+              style={
+                {
+                  "alignItems": "center",
+                  "flexBasis": "0%",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "flex-end",
+                  "paddingLeft": 8,
+                  "paddingRight": 8,
+                }
+              }
+            >
+              <Text
+                ellipsizeMode="middle"
+                numberOfLines={1}
+                style={
+                  [
+                    {
+                      "fontFamily": "RegularFont",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                    },
+                    [
+                      [
+                        {
+                          "fontFamily": "SoraRegular",
+                          "fontSize": 12,
+                          "fontWeight": "400",
+                          "lineHeight": 16,
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
+                        },
+                        {
+                          "maxWidth": 124,
+                          "minWidth": 10,
+                        },
+                      ],
+                      {
+                        "color": "rgba(89, 89, 89, 1)",
+                      },
+                    ],
+                  ]
+                }
+                testID="vault_vault_id"
+              >
+                22ffasd5ca123123123123123121231061
+              </Text>
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "RegularFont",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                    },
+                    [
+                      {
+                        "fontFamily": "SoraSemiBold",
+                        "fontSize": 16,
+                        "fontWeight": "600",
+                        "lineHeight": 24,
+                        "textAlign": "center",
+                      },
+                      {
+                        "color": "rgba(229, 69, 69, 1)",
+                      },
+                    ],
+                  ]
+                }
+                testID="vault_min_ratio"
+              >
+                0.00%
+              </Text>
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                {
+                  "alignSelf": "center",
+                  "backgroundColor": "rgba(0, 0, 0, 1)",
+                  "borderBottomLeftRadius": 9999,
+                  "borderBottomRightRadius": 9999,
+                  "borderBottomWidth": 0,
+                  "borderLeftWidth": 0,
+                  "borderRightWidth": 0,
+                  "borderTopLeftRadius": 9999,
+                  "borderTopRightRadius": 9999,
+                  "borderTopWidth": 0,
+                  "flexWrap": "wrap",
+                  "marginTop": 8,
+                  "opacity": 1,
+                  "paddingBottom": 8,
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "fontFamily": "RegularFont",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "lineHeight": 24,
+                    },
+                    [
+                      {
+                        "alignSelf": "center",
+                        "flexWrap": "wrap",
+                        "fontFamily": "SoraSemiBold",
+                        "fontSize": 12,
+                        "fontWeight": "600",
+                        "lineHeight": 16,
+                      },
+                      {
+                        "color": "rgba(242, 242, 242, 1)",
+                      },
+                    ],
+                  ]
+                }
+                testID="vault_borrow_button"
+              >
+                Borrow
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Vault card should match snapshot of liquidated vault 1`] = `
+<View
+  style={
+    {
+      "marginBottom": 8,
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "borderBottomColor": "rgba(204, 204, 204, 1)",
+        "borderBottomWidth": 0,
+        "borderLeftColor": "rgba(204, 204, 204, 1)",
+        "borderLeftWidth": 0,
+        "borderRightColor": "rgba(204, 204, 204, 1)",
+        "borderRightWidth": 0,
+        "borderTopColor": "rgba(204, 204, 204, 1)",
+        "borderTopWidth": 0,
+        "opacity": 1,
+      }
+    }
+    testID="vault_IN LIQUIDATION"
+  >
+    <View
+      style={
+        [
+          {
+            "borderBottomLeftRadius": 10,
+            "borderBottomRightRadius": 10,
+            "borderBottomWidth": 0,
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderTopLeftRadius": 10,
+            "borderTopRightRadius": 10,
+            "borderTopWidth": 0,
+            "paddingBottom": 20,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 20,
+          },
+          {
+            "backgroundColor": "rgba(255, 255, 255, 1)",
+          },
+        ]
+      }
+      testID="vault_IN LIQUIDATION_vault"
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <ViewManagerAdapter_ExpoImage
+          contentFit="contain"
+          contentPosition={
+            {
+              "left": "50%",
+              "top": "50%",
+            }
+          }
+          height={64}
+          onError={[Function]}
+          onLoad={[Function]}
+          onLoadStart={[Function]}
+          onProgress={[Function]}
+          placeholder={[]}
+          source={[]}
+          style={
+            {
+              "height": 64,
+              "width": 74,
+            }
+          }
+          testID="vault_IN LIQUIDATION_liquidated_vault_image"
+          transition={null}
+          width={74}
+        />
+        <View
+          style={
+            {
+              "alignItems": "flex-end",
+              "flexBasis": "0%",
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 1,
+            }
+          }
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "borderBottomColor": "rgba(204, 204, 204, 1)",
+                "borderBottomWidth": 0,
+                "borderLeftColor": "rgba(204, 204, 204, 1)",
+                "borderLeftWidth": 0,
+                "borderRightColor": "rgba(204, 204, 204, 1)",
+                "borderRightWidth": 0,
+                "borderTopColor": "rgba(204, 204, 204, 1)",
+                "borderTopWidth": 0,
+                "flexDirection": "row",
+                "opacity": 1,
+              }
+            }
+          >
+            <Text
+              ellipsizeMode="middle"
+              numberOfLines={1}
+              style={
+                [
+                  {
+                    "fontFamily": "RegularFont",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  [
+                    [
+                      {
+                        "fontSize": 12,
+                        "lineHeight": 16,
+                        "textAlign": "right",
+                      },
+                      {
+                        "maxWidth": 124,
+                        "minWidth": 10,
+                      },
+                    ],
+                    {
+                      "color": "rgba(89, 89, 89, 1)",
+                    },
+                  ],
+                ]
+              }
+              testID="vault_IN LIQUIDATION_vault_id"
+            >
+              22ffasd5ca123123123123123121231061
+            </Text>
+            <Text />
+          </View>
+          <Text
+            style={
+              [
+                {
+                  "fontFamily": "RegularFont",
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "lineHeight": 24,
+                },
+                [
+                  {
+                    "fontFamily": "SoraRegular",
+                    "fontSize": 12,
+                    "fontWeight": "400",
+                    "lineHeight": 16,
+                    "marginTop": 4,
+                    "textAlign": "right",
+                    "width": "91.666667%",
+                  },
+                  {
+                    "color": "rgba(229, 69, 69, 1)",
+                  },
+                ],
+              ]
+            }
+            testID="vault_IN LIQUIDATION_vault_description"
+          >
+            Liquidated vault
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
